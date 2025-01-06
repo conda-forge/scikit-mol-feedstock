@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/scikit_mol-{{ version }}.tar.gz
-  sha256: 45e9c37a5094fda471eb7b1664535e0e167e353cb1c2f4e0808aa8fd4cb4d655
+  sha256: a281ec770a0c62176a6fbd23b716e3cef18a2484592f23a95abf82de8f29d1a8
 
 build:
   noarch: python
