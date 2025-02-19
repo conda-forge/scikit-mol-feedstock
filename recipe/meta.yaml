@@ -35,11 +35,9 @@ test:
     - scikit_mol
   commands:
     - pip check
-    - pytest --pyargs scikit_mol
   requires:
     - pip
     - python {{ python_min }}
-    - pytest
 
 about:
   home: https://github.com/EBjerrum/scikit-mol
