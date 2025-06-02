@@ -1,5 +1,5 @@
 {% set name = "scikit-mol" %}
-{% set version = "0.6.0" %}
+{% set version = "0.6.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/scikit_mol-{{ version }}.tar.gz
-  sha256: 2979c5c58b87c3a5ff7f61a0a12c84eacdd724a8e05577fe414da074ebaa87f7
+  sha256: 1483b380b1bd9bce3195af38eb283fb2d3ee5876902e3d086046d7b537dca4be
 
 build:
   noarch: python
